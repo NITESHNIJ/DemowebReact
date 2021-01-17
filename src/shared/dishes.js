@@ -1,6 +1,4 @@
 
-   //WEEK2.2
-   //for the second week removed the commets part from this file and put it in a separate file.
    export const DISHES =
     [
         {

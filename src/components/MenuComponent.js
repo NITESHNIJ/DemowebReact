@@ -8,7 +8,6 @@ import { Card, CardImg, CardImgOverlay, CardText, CardBody,
 
 import { Link } from 'react-router-dom';
 
-//WEEK 2.3, implemented to enable the dishdetails component as well
 function RenderMenuItem({dish, onClick}) {
     return(
         <Card>

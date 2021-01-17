@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
-//import { Navbar, NavbarBrand, Jumbotron } from 'reactstrap';
 
-//now here I import elements which I will require to construct navigation links in the header. The links 
-//on being clicked will effect the url and will change it. and now this url will match one of the routes and hence that 
-//component will start getting displayed.
 
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron,
   Button, Modal, ModalHeader, ModalBody,
   Form, FormGroup, Input, Label } from 'reactstrap';
 
 
-//import { Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 
-//WEEK 3.1
 class Header extends Component {
 
   constructor(props){
